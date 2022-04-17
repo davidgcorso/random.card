@@ -14,8 +14,11 @@ function randomCardsSymbols(){
   return symbols[randomSymbol];
   
   };
-document.querySelector(".number").innerHTML = "randomCardsNumbers()";
-document.querySelector("#simbolos").innerHTML = "randomCardsSymbols()";
+document.querySelector(".number").innerHTML = randomCardsNumbers();
+document.querySelector("#simbolos").innerHTML = randomCardsSymbols();
+
+//PREGUNTAR COMO HAGO PARA IMPRIMIR EL SIMBOLO ABAJO
+
 
 
 
