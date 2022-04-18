@@ -7,7 +7,7 @@ return numbers[randomNumber];
 
 };
 function randomCardsSymbols(){
-  let symbols = [ "&spades;", "&hearts;", "&diams;", "&clubs;"];
+  let symbols = ["&spades;", "&hearts;", "&diams;", "&clubs;"];
 
   let randomSymbol = Math.floor(Math.random() * symbols.length); 
   
