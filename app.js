@@ -14,10 +14,13 @@ function randomCardsSymbols(){
   return symbols[randomSymbol];
   
   };
-document.querySelector(".number").innerHTML = randomCardsNumbers();
-document.querySelector("#simbolos").innerHTML = randomCardsSymbols();
+let symbolCatched = randomCardsSymbols();
 
-//PREGUNTAR COMO HAGO PARA IMPRIMIR EL SIMBOLO ABAJO
+document.querySelector(".number").innerHTML = randomCardsNumbers();
+document.querySelector(".top-suit").innerHTML = symbolCatched;
+document.querySelector(".bottom-suit").innerHTML = symbolCatched;
+
+
 
 
 
