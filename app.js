@@ -20,6 +20,9 @@ document.querySelector(".number").innerHTML = randomCardsNumbers();
 document.querySelector(".top-suit").innerHTML = symbolCatched;
 document.querySelector(".bottom-suit").innerHTML = symbolCatched;
 
+let button = document.getElementById("resetBtn");
+button.addEventListener('click', ()=>{ window.location.reload() });
+
 
 
 

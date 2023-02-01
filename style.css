@@ -4,6 +4,7 @@ body {
 .card {
     text-align: center;
     display: inline-block;
+    margin-top: 32px;
     height: 600px;
     width: 400px;
     border-radius: 30px;
@@ -30,4 +31,17 @@ body {
   bottom: 15rem;
   left:10rem;
   font-size:100px;
+}
+.resetCard {
+    margin: 32px 0 16px 44%;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 16px;
+    font-size:larger;
+    font-weight: bold;
+}
+.resetCard:hover {
+   color: rgb(255, 255, 255);
+   background-color: grey;
+   border: solid 2px rgb(255, 255, 255);
 }
